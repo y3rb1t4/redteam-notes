@@ -1,4 +1,4 @@
-site_name: MkDocs YouTube Tutorial
+site_name: Notes with 🧉
 site_url: https://y3rb1t4.github.io/redteam-notes/
 theme:
   name: material
@@ -54,8 +54,7 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+
 
 copyright: |
   &copy; 2023 <a href="https://github.com/y3rb1t4"  target="_blank" rel="noopener"> y3rb1t4 </a>
