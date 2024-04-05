@@ -1,7 +1,9 @@
 site_name: Notes with 🧉
 site_url: https://y3rb1t4.github.io/redteam-notes/
 theme:
+  logo: assests/shaka.png
   name: material
+  favicon: assests/shaka.png
   features:
     - navigation.tabs
     - navigation.sections
@@ -19,7 +21,7 @@ theme:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
       primary: teal
-      accent: purple 
+      accent: indigo 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
