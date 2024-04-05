@@ -4,16 +4,33 @@ theme:
   logo: assests/shaka.png
   name: material
   favicon: assests/shaka.png
+  # Icons
+  icon:
+    previous: fontawesome/solid/angle-left
+    next: fontawesome/solid/angle-right
+  # Features
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
+    - content.code.copy
+    - content.code.select
+    - content.code.annotate
+    - content.tabs.link
+    - content.footnote.tooltips
+    - content.tooltips
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.indexes
+    - navigation.tabs.sticky
+    - navigation.path
+    - navigation.expand
+    - navigation.tracking
     - navigation.top
+    - navigation.footer
+    - search
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - search.share
+    - header.autohide
   language: en
   palette:
     - scheme: default
@@ -26,21 +43,8 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
+      primary: black
       accent: lime
-
-plugins:
-  - social
-  - search
-
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/y3rb1t4
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/y3rb1t4
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/gaborosecurity/
 
 markdown_extensions:
   - pymdownx.highlight:
@@ -56,6 +60,23 @@ markdown_extensions:
   - pymdownx.mark
   - attr_list
   - pymdownx.emoji:
+
+
+
+plugins:
+  - social
+  - search
+
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/y3rb1t4
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/y3rb1t4
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/gaborosecurity/
+    - icon: simple/hackerone
+      link: https://hackerone.com/y3rb1t4
 
 
 copyright: |
