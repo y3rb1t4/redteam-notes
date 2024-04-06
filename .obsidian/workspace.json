@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/scripting/shc.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +101,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Untitled.md"
               }
             }
           }
@@ -146,8 +144,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "761c825a582064eb",
+  "active": "af4ef6e5913c5c03",
   "lastOpenFiles": [
+    "docs/BugBounty/index.md",
+    "docs/BugBounty/Reconassiance.md",
+    "docs/scripting/shc.md",
+    "Untitled.md",
     "docs/htb/machines-retired/Forest/Forest.md",
     "README.md"
   ]
