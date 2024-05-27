@@ -1,4 +1,4 @@
-## Subdomain Discovery
+./## Subdomain Discovery
 
 ``` bash
 amass enum -brute -active -d example.com -o amass-output.txt

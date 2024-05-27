@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "docs/BugBounty/Reconassiance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "docs/BugBounty/Reconassiance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "docs/BugBounty/Reconassiance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "docs/BugBounty/Reconassiance.md"
               }
             }
           }
@@ -148,6 +148,11 @@
   },
   "active": "761c825a582064eb",
   "lastOpenFiles": [
+    "docs/BugBounty/index.md",
+    "docs/CTF/HackTheBox/Recon.md",
+    "docs/Tutorials/WindowsPrivilegeEscalation/Windows ProiPr.md",
+    "README.md",
+    "docs/Tutorials/WindowsPrivilegeEscalation",
     "docs/CTF/HackTheBox/machines-retired/Forest/index.md",
     "docs/TheArtofHacking/index.md",
     "docs/TheArtofHacking",
@@ -175,7 +180,6 @@
     "docs/CTF/HackTheBox/machines-retired",
     "docs/Tutorials/languages/python.md",
     "docs/Tutorials/languages/php.md",
-    "docs/Tutorials/languages",
     "docs/Tutorials/logs/sql.md",
     "docs/Tutorials/logs/emails.md",
     "Untitled.md",
@@ -185,10 +189,6 @@
     "docs/Tutorials/software/assets/decoder.png",
     "docs/Tutorials/software/tmux.md",
     "docs/Tutorials/software/sqlmap.md",
-    "docs/Tutorials/software/samba.md",
-    "docs/Tutorials/software/mongodb.md",
-    "docs/Tutorials/software/keepass.md",
-    "docs/Tutorials/software/curl.md",
     "docs/Tutorials/standards/rce/rce_3.png",
     "docs/Tutorials/standards/rce/rce_2.png",
     "docs/Tutorials/standards/rce/rce_1.png"

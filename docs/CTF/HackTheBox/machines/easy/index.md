@@ -1,0 +1,4 @@
+---
+title: Easy
+---
+Coming Soon!
