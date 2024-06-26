@@ -1,0 +1,8 @@
+# LLMNR/NBT-NS Poisoning - from linux
+
+En este punto, hemos completado nuestra enumeración inicial del dominio. Obtuvimos información básica de usuarios y grupos, enumeramos hosts mientras buscábamos servicios críticos y roles como un Controlador de Dominio, y descubrimos algunos detalles específicos, como el esquema de nombres utilizado para el dominio. En esta fase, trabajaremos con dos técnicas diferentes de manera simultánea: envenenamiento de red y rociado de contraseñas. Realizaremos estas acciones con el objetivo de adquirir credenciales válidas en texto claro para una cuenta de usuario del dominio, otorgándonos así un punto de apoyo en el dominio para comenzar la siguiente fase de enumeración desde una perspectiva acreditada.
+
+Esta sección y la siguiente cubrirán una manera común de recopilar credenciales y obtener un punto de apoyo inicial durante una evaluación: un ataque Man-in-the-Middle en las transmisiones de Resolución de Nombres Multicast de Enlace Local (LLMNR) y Servicio de Nombres NetBIOS (NBT-NS). Dependiendo de la red, este ataque puede proporcionar hashes de contraseñas de nivel bajo privilegiado o administrativo que pueden ser descifrados fuera de línea o incluso credenciales en texto claro. Aunque no se cubre en este módulo, estos hashes también pueden a veces ser utilizados para realizar un ataque de Relevo SMB para autenticarse en un host o múltiples hosts en el dominio con privilegios administrativos sin tener que descifrar el hash de la contraseña fuera de línea. ¡Vamos a profundizar!
+
+
+
